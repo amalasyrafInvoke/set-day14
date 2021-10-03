@@ -1,4 +1,4 @@
-var apiKey = '235acb7e5922a01346f05d3e0699e5cf';
+var apiKey = df193a0003d5623bfba80ba6c716e323;
 var isCurrentLocation = false;
 
 var weatherHolder = document.getElementById('weather-holder');
