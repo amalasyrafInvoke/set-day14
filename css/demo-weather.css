@@ -14,7 +14,7 @@
 }
 
 #search-holder {
-  color: #415f71;
+  color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -23,12 +23,16 @@
 
 #search-holder input {
   background-color: #081b24;
-  color: #415f71;
+  color: white;
   height: 30px;
   flex-grow: 0.8;
   margin-left: 20px;
   border: none;
-  border-bottom: 1px solid #415f71;
+  border-bottom: 1px solid white;
+}
+
+#search-holder input::placeholder {
+  color: white;
 }
 
 #current-weather-holder {
